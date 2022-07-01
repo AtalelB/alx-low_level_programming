@@ -5,7 +5,7 @@
  * main - Entry point
  * Return : always 0
  */
-main(void)
+void main(void)
 {
 	int n;
 
