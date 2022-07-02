@@ -7,6 +7,7 @@
 int main(void)
 {
 	char letter;
+
 	{
 		if (letter != 'e' && letter != 'q')
 			putchar(letter);
