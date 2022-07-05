@@ -1,14 +1,11 @@
-#include "main.h"
-
+#includ "main.h"
 /**
- * main - a program that prints _putchar, followed by new line.
+ * main-a program that prints _putchar
  *
  * Return: Always 0
  */
 int main(void)
 {
-	int_putchar(char c)
-
 	_putchar('_');
 	_putchar('p');
 	_putchar('u');
@@ -18,6 +15,5 @@ int main(void)
 	_putchar('a');
 	_putchar('r');
 	_putchar('\n');
-
 	return (0);
 }
