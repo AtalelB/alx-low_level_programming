@@ -5,9 +5,9 @@
  *
  * Return:  0 for uppercase, 1 for lwercase.
  */
-int_islowernt(char c)
+int_islowernt(int c)
 {
-
+char c;
 	if (c >= 'a' && c <= 'z')
 	{
 		return (1);
