@@ -7,12 +7,12 @@
  *  Return: 1 for uppercase, 0 for lwercase.
  */
 
-int_isupper(int c)
+int _isupper(int c)
 {
 	char uppercase = 'A';
 	int isupper = 0;
 
-	for (; uppercase <= 'Z'; uppercase++)
+	for (uppercase >= 'A'; uppercase <= 'Z'; uppercase++)
 	{
 		if (c == uppercase)
 		{
