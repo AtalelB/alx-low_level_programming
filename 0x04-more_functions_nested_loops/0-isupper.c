@@ -6,14 +6,19 @@
  *
  *  Return: 1 for uppercase, 0 for lwercase.
  */
-i
+
 int_isupper(int c)
 {
+	char uppercase = 'A';
+	int isupper = 0;
 
-	if (c >= 'A' && c <= Z)
+	for (; uppercase <= 'Z'; uppercase++)
 	{
-	return (1);
+		if (c == uppercase)
+		{
+			isupper = 1;
+	break;
+		}
 	}
-	else
-	return (0);
+	return (isupper);
 }
