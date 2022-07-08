@@ -1,9 +1,11 @@
 #include <stdio.h>
+
 /**
  * main - entry point
  *
  * Return: void
  */
+
 int main(void)
 {
 	int p = 100;
@@ -32,6 +34,5 @@ int main(void)
 		i++;
 	}
 	printf("\n");
-	{
 	return (0);
 }
