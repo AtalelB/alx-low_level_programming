@@ -3,9 +3,9 @@
 /**
  * print_triangle - check for a digit
  * @size : integer type
- *
- * Return: void
+ * Return: Always 0
  */
+
 void print_triangle(int size)
 {
 	in i = 1, ii;
@@ -18,7 +18,7 @@ void print_triangle(int size)
 			_putchar(' ');
 			ii++;
 		}
-		ii == 0;
+		ii = 0;
 		while (ii < i)
 		{
 			_putchar('#');
