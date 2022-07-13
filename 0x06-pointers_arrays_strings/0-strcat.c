@@ -1,4 +1,5 @@
 #include "main.h"
+#include <string.h>
 /**
  * _strcat - This is a strcat function
  * @dest: the first parameter
@@ -7,7 +8,7 @@
  */
 char *_strcat(char *dest, char *src)
 {
-	int len = a, b;
+	int a, b;
 
 	a = 0;
 	while (dest[a])
