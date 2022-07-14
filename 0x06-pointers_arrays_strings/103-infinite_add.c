@@ -21,7 +21,7 @@ char *infinite_add(char *n1, char *n2, char *r, int size_r)
 	}
 	for (; *n1; n1--; size_r++)
 	{
-		num = (*n1 - '0') + tens;
+		num = *(n1 - '0') + tens;
 		*(r + size_r) = (num % 10) + '0';
 		tens = num / 10;
 	}
