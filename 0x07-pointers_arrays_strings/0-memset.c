@@ -1,4 +1,4 @@
-#incude "main.h"
+#include "main.h"
 /**
  * _memset - function that fills memory with a constant byte.
  * @s: Memory area to fill
