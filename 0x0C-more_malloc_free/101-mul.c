@@ -107,12 +107,12 @@ prod--;
 }
 for (; mult_len >= 0; mult_len--, mult--, prod--)
 {
-if (*mult < '0' || *mult > '9')
+if (*mult_len < '0' || *mult_len > '9')
 {
 printf("Error\n");
 exit(98);
 }
-num = (*mult - '0') * digit;
+num = (*mult_len - '0') * digit;
 num += tens;
 *prod = (num % 10) + '0';
 tens = num / 10;
